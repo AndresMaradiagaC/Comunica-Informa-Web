@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* permite hacer el desplazamiento de secciones mas suave */
+    scroll-behavior: smooth;
+}
+
+
+
+/*iniciamos*/
+
+.clip-path { 
+    clip-path: circle(42% at center);
+    height: 150px;
+    width: 150px;
+    background-color: #ffcc00;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 50px;
+    height: 30px;
+}
+.bg1{
+    background-color: #ff0000ae;
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+.bg2{
+    background-color: #a98f8fa1;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.banner3 {
+    background-image: url('../imagenes/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+
+}
+.banner4 {
+    background-image: url('../imagenes/bannerimg-min.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+
+}
+
+.letrabanner3{
+    font-size: 35px;
+
+}
+.letraevento{
+    font-size: 20px;
+    background-color: #eababa80;
+    border-radius: 15px;
+}
+
+.bodybg {
+    background-image: url("../imagenes/fondo.jpg");
+    height: 300px;
+    background-attachment: fixed;
+}
+.alertaRoja {
+    color: red;
+}
+
+.alertaVerde {
+    color: green;
+}
+.parrillatm{
+    height: 400px;
+    width: 500px;
+}
+.facebook{
+    font-size: 70px;
+    color: #0022ff; 
+    box-shadow: 0 0.5rem 1rem rgba(0, 170, 255, 0.726); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+.phone{
+    font-size: 70px;
+    color: #00ff15; 
+    box-shadow: 0 0.5rem 1rem rgb(208, 255, 0); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+.email{
+    font-size: 70px;
+    color: #ff0000; 
+    box-shadow: 0 0.5rem 1rem rgb(255, 170, 0); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+header{
+	/*altura fija vertical*/
+	height: 55vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+
+}
+
+
+footer {
+    background-color: #ff0000;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+
+}
+
+footer p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 15px;
+}
